@@ -140,7 +140,7 @@ nav a.active {
     font-size: 15px;
 }
 
-/* ---------- Footer (Sticky & Same as Main Page) ---------- */
+/* ---------- Footer ---------- */
 footer {
     background-color: #111;
     border-top: 1px solid #222;
@@ -148,4 +148,21 @@ footer {
     text-align: center;
     font-size: 14px;
     color: #aaa;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #ffffff;        /* Force white */
+    text-decoration: none; /* Remove underline */
+}
+
+.logo:visited {
+    color: #ffffff;        /* Prevent purple visited state */
+}
+
+.logo:hover {
+    color: #ff6600;        /* Same hover as nav */
 }

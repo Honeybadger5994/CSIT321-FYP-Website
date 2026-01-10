@@ -188,3 +188,19 @@ footer {
     font-size: 14px;
     color: #aaa;
 }
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #ffffff;        /* Force white */
+    text-decoration: none; /* Remove underline */
+}
+
+.logo:visited {
+    color: #ffffff;        /* Prevent purple visited state */
+}
+
+.logo:hover {
+    color: #ff6600;        /* Same hover as nav */
+}
